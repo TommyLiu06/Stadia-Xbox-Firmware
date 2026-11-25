@@ -1,0 +1,76 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.uv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------------------------------------------------------------- build output
+# Zig caches and compiler scratch space used by src/build.py
+.build/
+zig-cache/
+.zig-cache/
+zig-out/
+*.o
+*.obj
+*.elf
+*.map
+
+# Firmware images produced by the build; the official base image is kept in
+# StadiaController-main/stadiatool/data, and everything else can be rebuilt.
+src/*.bin
+
+# ---------------------------------------------------------------- OS / editor
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+*.lnk
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+.history/
+
+# ---------------------------------------------------------------- logs / scratch
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.etl
+*.etl.*
+*.npy
+*.npz
+tmp/
+temp/
+scratch/
+*.ps1.tmp
+pwsh-*.txt
+
+# ---------------------------------------------------------------- secrets / local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12

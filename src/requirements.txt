@@ -1,0 +1,2 @@
+# Only dependency: Zig shipped as a Python package (build.py calls python -m ziglang cc).
+ziglang==0.15.2

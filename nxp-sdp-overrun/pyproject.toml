@@ -1,0 +1,10 @@
+[project]
+name = "nxp-sdp-overrun"
+version = "1.0.0"
+description = "Bypass NXP i.MX RT High-Assurance Boot via USB Serial Download Protocol buffer overrun"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+ "hidapi>=0.14.0.post4",
+ "keystone-engine>=0.9.2",
+]
