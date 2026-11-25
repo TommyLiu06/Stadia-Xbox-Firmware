@@ -40,6 +40,8 @@
 
 # 操作
 
+> **只能在 Linux 上运行，不能在 Windows 上运行，macOS 未测试。**
+
 环境：Linux，命令按 Ubuntu/Debian 写，其他发行版换包管理器。
 
 ## 1. 安装依赖
