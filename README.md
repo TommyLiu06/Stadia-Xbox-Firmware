@@ -12,6 +12,8 @@
 
 前提：PVT 量产机，序列号非 `91`–`94` 开头。刷写会永久烧掉签名熔丝，不可逆；原厂固件可随时刷回。
 
+仓库里另带一个**只修蓝牙震动、其余保持原厂**的固件：`StadiaController-main/stadiatool/data/bruce_pvt_stadia_vibration_fix.EXPERIMENTAL-INVALID-SIGNATURE.bin`，刷写步骤完全相同，只换文件名。
+
 ## 原理
 
 ### 1. 原厂蓝牙为什么不震动
