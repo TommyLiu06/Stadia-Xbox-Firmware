@@ -226,7 +226,7 @@ lsusb | grep 045e
 sudo .venv/bin/python stadiatool.py flash_firmware data/bruce_pvt_a_prod_signed.bin
 ```
 
-原厂镜像签名有效，eFuse 已烧也不影响启动。
+eFuse 已烧也不影响启动。
 
 ---
 
