@@ -1,6 +1,6 @@
 # 固件源码
 
-`bruce-pvt-xinput-direct-usb-ble-rates-strong-feedback` 的完整可编译源码。
+`bruce_pvt_xbox` 的完整可编译源码。
 
 刷入步骤见上一级目录的 [README](../README.md)。
 
@@ -38,7 +38,7 @@ python3 build.py ../StadiaController-main/stadiatool/data/bruce_pvt_a_prod_signe
 
 ```
 payload 2092 B, report map 283 B
-wrote   bruce-pvt-xinput-direct-usb-ble-rates-strong-feedback.EXPERIMENTAL-INVALID-SIGNATURE.bin (1050984 bytes)
+wrote   bruce_pvt_xbox.EXPERIMENTAL-INVALID-SIGNATURE.bin (1050984 bytes)
 sha256  e2d681121fd9248c2c34e7948f93a96b48249fa1e744552a4885272a04a82c72
 ```
 

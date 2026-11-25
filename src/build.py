@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build bruce-pvt-xinput-direct-usb-ble-rates-strong-feedback from the official image.
+"""Build bruce_pvt_xbox (XInput + BLE + 1000 Hz + rumble fix) from the official image.
 
 The only input is the unmodified PVT retail image
 ``bruce_pvt_a_prod_signed.bin``; everything else is compiled from the five files
@@ -22,7 +22,7 @@ import tempfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OUTPUT = HERE / "bruce-pvt-xinput-direct-usb-ble-rates-strong-feedback.EXPERIMENTAL-INVALID-SIGNATURE.bin"
+OUTPUT = HERE / "bruce_pvt_xbox.EXPERIMENTAL-INVALID-SIGNATURE.bin"
 
 # ----------------------------------------------------------------- image layout
 PRODUCTION_SHA256 = "466ddd2dbcd8d1a66e2826f25849a6e5e45d9bb7e696e3fe0d500af56a5507a3"
