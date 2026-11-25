@@ -45,8 +45,7 @@
 ## 1. 安装依赖
 
 ```bash
-sudo apt install -y python3 python3-venv python3-pip build-essential pkg-config \
-                    libudev-dev libusb-1.0-0
+sudo apt install -y python3 python3-venv python3-pip build-essential pkg-config libudev-dev libusb-1.0-0
 ```
 
 两个工具各建虚拟环境。
